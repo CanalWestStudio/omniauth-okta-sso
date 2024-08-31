@@ -4,7 +4,7 @@ require 'omniauth-oauth2'
 
 module OmniAuth
   module Strategies
-    class OktaSSO < OmniAuth::Strategies::OAuth2
+    class OktaSso < OmniAuth::Strategies::OAuth2
       DEFAULT_SCOPE = %{openid profile email}.freeze
 
       option :name, :okta_sso

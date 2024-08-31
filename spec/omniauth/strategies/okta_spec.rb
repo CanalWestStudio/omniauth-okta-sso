@@ -2,7 +2,7 @@
 
 require 'spec_helper'
 
-describe OmniAuth::Strategies::OktaSSO do
+describe OmniAuth::Strategies::OktaSso do
   include OmniAuth::Test::StrategyTestCase
   subject { described_class.new({}) }
 
